@@ -1,5 +1,6 @@
- export let homeDiv = document.createElement("div");
+export let homeDiv = document.createElement("div");
 
+import moonsDonuts from "./moons-donut.jpeg"; 
 
 let headlineDiv = document.createElement("div");
 
@@ -17,8 +18,8 @@ menuFavoritesTitle.textContent = "Fan favorites";
 
 let productContainer = document.createElement("div");
 
-let imageText = document.createElement("p");
-imageText.textContent = "image";
+let imageText = document.createElement("img");
+imageText.src = moonsDonuts;
 
 let infoContainer = document.createElement("div");
 
